@@ -15,7 +15,7 @@ AppceleratorTitanium.gitignore
 ...                 
 ```
 
-2) Download specific template
+2) Download specific template to active directory
 
 ```bash
 $ git ignore VisualStudio
