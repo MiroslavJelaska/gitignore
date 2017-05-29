@@ -2,7 +2,7 @@
 Extend git command and add .gitignore templates more quickly into your new projects. All templates are downloaded from [github.com/github/gitignore](https://github.com/github/gitignore).
 
 ## Usage examples
-1) List all available 
+1) List all available templates
 
 ```bash
 $ git ignore --list
@@ -42,6 +42,9 @@ To use `$ git ignore --list` make sure `jq` is installed. jq is a lightweight an
 
 _Note:_ On Windows you can download latest .exe file and put it in directory that is added to the PATH.
 
+
+## Further enchantments
+* Currently `git ignore --list` actually lists all files from [github.com/github/gitignore/](https://github.com/github/gitignore/) and not all of them are .gitignore's.
 
 ## Few resources
 [http://mfranc.com/tools/git-custom-command/](http://mfranc.com/tools/git-custom-command/)
