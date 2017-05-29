@@ -39,15 +39,15 @@ To find out what are those directories go to  `Control Panel → All Control Pan
 
 
 ## Dependencies
-To use `$ git ignore --list` make sure `jq` is installed. jq is a lightweight and flexible command-line JSON processor. For more info visit: [stedolan.github.io/jq/](https://stedolan.github.io/jq/)
+To use `$ git ignore --list` make sure `jq` is installed. jq is a lightweight and flexible command-line JSON processor. For more info visit: [stedolan.github.io/jq](https://stedolan.github.io/jq/)
 
-_Note:_ On Windows you can download latest .exe file and put it in directory that is added to the PATH.
+_Note:_ On Windows you can download latest jq .exe file and put it in directory that is added to the PATH.
 
 
 ## Further enhancements
-* Currently `git ignore --list` actually lists all files from [github.com/github/gitignore/](https://github.com/github/gitignore/) and not all of them are .gitignore's.
+* Currently `git ignore --list` actually lists all files from [github.com/github/gitignore](https://github.com/github/gitignore/) and not all of them are .gitignore's.
 
 ## Few resources
-* [mfranc.com/tools/git-custom-command/](http://mfranc.com/tools/git-custom-command/)
+* [mfranc.com/tools/git-custom-command](http://mfranc.com/tools/git-custom-command/)
 * [adamcod.es/2013/07/12/how-to-create-git-plugin.html](https://adamcod.es/2013/07/12/how-to-create-git-plugin.html)
 * [coderwall.com/p/bt93ia/extend-git-with-custom-commands](https://coderwall.com/p/bt93ia/extend-git-with-custom-commands)
