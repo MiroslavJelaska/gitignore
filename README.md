@@ -48,6 +48,6 @@ _Note:_ On Windows you can download latest .exe file and put it in directory tha
 * Currently `git ignore --list` actually lists all files from [github.com/github/gitignore/](https://github.com/github/gitignore/) and not all of them are .gitignore's.
 
 ## Few resources
-* [http://mfranc.com/tools/git-custom-command/](http://mfranc.com/tools/git-custom-command/)
-* [https://adamcod.es/2013/07/12/how-to-create-git-plugin.html ](https://adamcod.es/2013/07/12/how-to-create-git-plugin.html)
+* [mfranc.com/tools/git-custom-command/](http://mfranc.com/tools/git-custom-command/)
+* [adamcod.es/2013/07/12/how-to-create-git-plugin.html](https://adamcod.es/2013/07/12/how-to-create-git-plugin.html)
 * [coderwall.com/p/bt93ia/extend-git-with-custom-commands](https://coderwall.com/p/bt93ia/extend-git-with-custom-commands)
