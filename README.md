@@ -35,7 +35,7 @@ _I haven't tried this on Unix / MacOS yet._
 ### Windows
 Download `git-ignore` file and put it inside any directory that is added to the PATH.
 
-To find out what are those directories go to  `Control Panel → All Control Panel Items → System → Advanced system settings (in sidemenu)→ Advanced (tab) → Environment Variables... → User variables for <username>`. There should be variable called `PATH`. To view folders or to add your own select PATH variable and click `Edit...`. I prefere to add utilities to `C://Users/<username>/AppData/Roaming/Utilities`.
+To find out what are those directories go to  `Control Panel → All Control Panel Items → System → Advanced system settings (in sidemenu)→ Advanced (tab) → Environment Variables... → User variables for <username>`. There should be variable called `PATH`. To view folders or to add your own select PATH variable and click `Edit...`. I prefer to add utilities at `C://Users/<username>/AppData/Roaming/Utilities`.
 
 
 ## Dependacies
