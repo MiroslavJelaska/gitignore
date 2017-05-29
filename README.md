@@ -29,7 +29,8 @@ Done.
 ## Instalation
 ### Unix / MacOS
 Download `git-ignore` file and put it inside `/usr/local/bin`. [What is /usr/local/bin?](https://unix.stackexchange.com/questions/4186/what-is-usr-local-bin)
-_I haven't tried this one yet._
+
+_I haven't tried this on Unix / MacOS yet._
 
 ### Windows
 Download `git-ignore` file and put it inside any directory that is added to the PATH.
