@@ -1,0 +1,31 @@
+#!/bin/sh
+
+function printMan {
+    echo "Usages:"
+    echo "[--all] List all available .gitignore"
+    echo "[name] Download [name].gitignore in active directory"
+}
+
+if [ $# -eq 0 ]; then
+    echo "No arguments provided"
+    printMan
+    exit 1
+elif [ "$1" == "--list" ] 
+then
+    command -v jq >/dev/null 2>&1 || {
+        echo >&2 "jq is required but it's not installed. jq is a lightweight and flexible command-line JSON processor. For more info visit: https://stedolan.github.io/jq/"; 
+        echo "Aborting";
+        exit 1; 
+    }
+    curl -sS https://api.github.com/repos/github/gitignore/contents/ | jq '.[].name' --raw-output
+else
+    STATUS=$(curl --write-out %{http_code} --silent --output /dev/null https://raw.githubusercontent.com/github/gitignore/master/$1.gitignore)
+    
+    if [ "$STATUS" == "404" ]
+    then
+        echo "$1.gitignore could not be found. Check for mistyping."
+    else
+        curl "https://raw.githubusercontent.com/github/gitignore/master/$1.gitignore" > ".gitignore"
+        echo "Done."
+    fi
+fi
