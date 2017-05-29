@@ -26,7 +26,7 @@ Done.
 ```
 
 
-## Instalation
+## Installation
 ### Unix / MacOS
 Download `git-ignore` file and put it inside `/usr/local/bin`. [What is /usr/local/bin?](https://unix.stackexchange.com/questions/4186/what-is-usr-local-bin)
 
