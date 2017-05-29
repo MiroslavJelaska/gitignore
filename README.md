@@ -38,13 +38,13 @@ Download `git-ignore` file and put it inside any directory that is added to the 
 To find out what are those directories go to  `Control Panel → All Control Panel Items → System → Advanced system settings (in sidemenu)→ Advanced (tab) → Environment Variables... → User variables for <username>`. There should be variable called `PATH`. To view folders or to add your own select PATH variable and click `Edit...`. I prefer to add utilities at `C://Users/<username>/AppData/Roaming/Utilities`.
 
 
-## Dependacies
+## Dependencies
 To use `$ git ignore --list` make sure `jq` is installed. jq is a lightweight and flexible command-line JSON processor. For more info visit: [stedolan.github.io/jq/](https://stedolan.github.io/jq/)
 
 _Note:_ On Windows you can download latest .exe file and put it in directory that is added to the PATH.
 
 
-## Further enchantments
+## Further enhancements
 * Currently `git ignore --list` actually lists all files from [github.com/github/gitignore/](https://github.com/github/gitignore/) and not all of them are .gitignore's.
 
 ## Few resources
